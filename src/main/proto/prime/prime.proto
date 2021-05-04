@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package greet;
+option java_package = "com.proto.greet";
+option java_multiple_files = true;
+
+message PrimeNumberRequest {
+  int32 number = 1;
+}
+
+message PrimeNumberMultipleResponse {
+  int32 number = 1;
+}
+
+service PrimeNumber {
+  rpc primeNumberDecomposition(PrimeNumberRequest) returns (stream PrimeNumberMultipleResponse) {};
+}

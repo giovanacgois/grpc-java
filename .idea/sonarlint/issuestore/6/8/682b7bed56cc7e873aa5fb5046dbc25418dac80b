@@ -1,0 +1,19 @@
+
+R
+java:S1128"=Remove this unused import 'com.proto.greet.GreetServiceGrpc'.(·¶Š
+H
+java:S1128
+"2Remove this unused import 'io.grpc.ServerBuilder'.(°íµ«
+x
+java:S1128"]Remove this unused import 'com.github.giovanacgois.grpc.prime.server.PrimeNumberServiceImpl'.(ŞÓ¤ûÿÿÿÿ
+@
+java:S1128	"+Remove this unused import 'io.grpc.Server'.(ì‰“
+‡
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(àÒşüøÿÿÿÿ
+’
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(àÒşüøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÛìİÈ
+G
+java:S1602",Remove useless curly braces around statement(°İÈÂÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ä¥©¾üÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(±ãÅïüÿÿÿÿ
